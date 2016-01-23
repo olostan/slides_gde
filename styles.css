@@ -554,3 +554,26 @@ body.s9 {
   opacity: 1;
   transform: translateY(0px) rotateX(0deg) rotateY(0deg) rotateZ(180deg);
 }
+#links {
+  transform: translateX(800px);
+  font-size: 62px;
+  color: #000;
+}
+#links li {
+  margin-bottom: 40px;
+}
+#links li a {
+  color: #000;
+  text-decoration-color: #AAA;
+}
+.s23 {
+}
+.s23 #olos {
+  opacity: 0;
+  transform: translateY(-900px) rotateX(80deg) rotateY(0deg) rotateZ(180deg);
+}
+.s23 #links {
+  opacity: 1;
+  transform: translateX(0px);
+  transition-delay: 0.3s;
+}

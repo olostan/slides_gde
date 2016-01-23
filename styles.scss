@@ -250,3 +250,16 @@ body.s9 { background-color: rgb(238, 238, 238);}
     #joy{ transform:translateY(-900px) rotateX(80deg);}
     #olos{ opacity:1;transform:translateY(0px) rotateX(0deg) rotateY(0deg) rotateZ(180deg);}
 }
+#links {
+    transform:translateX(800px);
+    font-size: 62px;
+    color: black;
+    li { margin-bottom: 40px;
+        a { color: black;
+            text-decoration-color:#AAA;}
+    }
+}
+.s23 {
+    #olos{ opacity:0;transform:translateY(-900px) rotateX(80deg) rotateY(0deg) rotateZ(180deg);}
+    #links{ opacity:1;transform:translateX(0px);transition-delay: 0.3s;}
+}

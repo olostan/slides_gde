@@ -250,3 +250,16 @@ body.s9 { background-color: rgb(238, 238, 238);}
     #joy:up(900) rotate(80);
     #olos:show up(900) rotate(80);
 }
+#links {
+    ::right(800);
+    font-size: 62px;
+    color: black;
+    li { margin-bottom: 40px;
+        a { color: black;
+            text-decoration-color:#AAA;}
+    }
+}
+.s23 {
+    #olos:hide up(900) rotate(80);
+    #links: show left(800) delay(0.3);
+}
